@@ -1,0 +1,12 @@
+inputFile=./supervisedLearningDatasets/titanic.csv
+outputFile=./outputs/titanic_utility.csv
+header=true
+delimiter=,
+targetColIndex=1
+skipColsIndices=0,3,8,10
+numericIntColsIndices=6,7
+numericFloatColsIndices=5,9
+catColsIndices=2,4,11
+B=5
+writeTransformParameters=false
+missingValueImputation=false

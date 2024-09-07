@@ -1,0 +1,12 @@
+inputFile=./supervisedLearningDatasets/heloc.csv
+outputFile=./outputs/heloc_utility.csv
+header=true
+delimiter=,
+targetColIndex=0
+skipColsIndices=
+numericIntColsIndices=
+numericFloatColsIndices=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
+catColsIndices=
+B=5
+writeTransformParameters=false
+missingValueImputation=false
